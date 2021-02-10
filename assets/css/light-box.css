@@ -1,0 +1,46 @@
+
+.lightbox {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.8);
+	visibility: hidden;
+}
+.lightbox img{
+	width: 70vw;
+	height: 65vh;
+	object-fit: cover;
+	position: absolute;
+	top: 20vh;
+	left: 15vw;
+}
+.lightbox .fechar{
+	position: absolute;
+	right: 10vw;
+	top: 15vh;
+	transform: rotate(45deg);
+	width: 80px;
+	color: white;
+	font-weight: normal;
+	font-size: 36pt;
+	cursor: pointer;
+}
+
+.lightbox .seta{
+	position: absolute;
+	width: 80px;
+	color: white;
+	font-weight: normal;
+	font-size: 80pt;
+	cursor: pointer;
+}
+.lightbox .proxima{
+	right: 8vw;
+	top: 40vh;
+}
+.lightbox .anterior{
+	left: 9vw;
+	top: 40vh;
+}
